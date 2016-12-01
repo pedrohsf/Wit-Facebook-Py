@@ -6,15 +6,15 @@
   "keywords": ["python", "flask", "wit", "bot", "facebook", "Messenger" ],
   "env": {
     "WIT_TOKEN": {
-      "description": "Server Access Token from wit.ai (see your wit app settings).",
+      "description": "LH3AAOD4YDUHWUATCMRM6NSL2RDXAY4U",
       "required": true
     },
     "FB_PAGE_TOKEN": {
-      "description": "Facebook Page Token from https://developers.facebook.com/apps/",
+      "description": "EAAKAXCHV5rcBAB2hOoSyC1lr4WRDlWdjp2b48cqXr3KW1JyaQOnd9NAaS8hm8kj67L3sdvyvpJWRHV2KHZCODZAgRFKnnabZCzx7OukA0YZBEW5oJPZCR42uSROOMXLMx5KGFwxWvMb0pNZAZB75pQrHbZANZAVQ3tPkT40EFZBwHL7Vqp69RIkSub",
       "required": true
     },
     "FB_VERIFY_TOKEN": {
-      "description": "Facebook Verfication Token. Please make something up.",
+      "description": "token18972391623",
       "required": true
     }
   }
