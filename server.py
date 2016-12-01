@@ -6,6 +6,14 @@ import requests
 import os
 
 # Insert Wit access token here. Don't forget to train the Wit bot.
+
+global acess_token
+global TOKEN
+global bot
+global app
+global messageToSend
+global done
+
 access_token = os.environ.get('WIT_TOKEN')
 
 # Facebook App access token. Don't forge to connect app to page.
@@ -83,7 +91,7 @@ def hello():
                 recipient_id = x['sender']['id']
                 client.run_actions(recipient_id, message, {})
                 if done:
-                    print messageToSend
+                    print(messageToSend)
                     bot.send_text_message(recipient_id, messageToSend)
             else:
                 pass
