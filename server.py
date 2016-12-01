@@ -96,6 +96,12 @@ def new():
     return "Server is Online."
 
 
+@app.route("/teste")
+def meia_boca():
+    return os.environ.get('FB_VERIFY_TOKEN')
+
+
+
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
     app.run(host="0.0.0.0", port=port)
