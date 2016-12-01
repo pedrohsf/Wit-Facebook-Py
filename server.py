@@ -106,7 +106,7 @@ def new():
 
 @app.route("/teste")
 def meia_boca():
-    return "tente ver"
+    return "tente ver: " + messageToSend + os.environ.get('FB_VERIFY_TOKEN')
 
 
 
